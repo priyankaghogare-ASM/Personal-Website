@@ -3,6 +3,6 @@ services:
     name: personal-website
     repo: https://github.com/priyankaghogare-ASM/Personal-Website
     branch: main
-    buildCommand: ""
+   buildCommand: "."
     staticPublishPath: .
 
