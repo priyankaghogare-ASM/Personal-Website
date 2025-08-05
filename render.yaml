@@ -1,7 +1,8 @@
 services:
   - type: static
-    name: Personal-Website
-    branch: main             # Or "master", or any branch you want to deploy from
-    buildCommand: npm run build   # Or "" if no build is needed (e.g., raw HTML/CSS)
-    staticPublishPath: build      # Adjust this to your build output folder (e.g., "dist" or just "." for root)
-    envVars: []
+    name: personal-website
+    repo: https://github.com/priyankaghogare-ASM/Personal-Website
+    branch: main
+    buildCommand: ""
+    staticPublishPath: .
+
